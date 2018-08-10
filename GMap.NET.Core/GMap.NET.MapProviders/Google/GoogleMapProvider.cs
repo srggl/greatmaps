@@ -1361,8 +1361,8 @@ namespace GMap.NET.MapProviders
         }
 
         // Note: Use of API Key requires https's queries.
-        static readonly string ReverseGeocoderUrlFormat = "https://maps.{0}/maps/api/geocode/xml?latlng={1},{2}&language={3}&sensor=false";
-        static readonly string GeocoderUrlFormat = "https://maps.{0}/maps/api/geocode/xml?address={1}&language={2}&sensor=false";
+        static readonly string ReverseGeocoderUrlFormat = "https://maps.{0}/maps/api/geocode/xml?latlng={1},{2}&language={3}";
+        static readonly string GeocoderUrlFormat = "https://maps.{0}/maps/api/geocode/xml?address={1}&language={2}";
 
         #endregion
 
